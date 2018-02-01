@@ -6,9 +6,9 @@ Proceso: calcular la media de n numeros
 hasta recibir un numero 0
  
 QA
-Entrada	Salida	 Resultado
+Entrada	   Salida	 Resultado
 4 5 6 2 0   4.25         4.25
-0	0	 0
+0	    0    	 0
 1 1 1 0     1            1
 465 4684 0  2574.5       2574.5
 */
