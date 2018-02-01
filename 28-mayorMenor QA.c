@@ -1,31 +1,31 @@
 #include <stdio.h>
 /*
-Autor: César González 30/01/2018
+Autor: CÃ©sar GonzÃ¡lez 30/01/2018
 Entradas: valoresIngresados (float)
 Salidas: mayorValor (float); menorValor (float)
 Procedimiento general:
 Se lee el primer valor ingresado.
 Se inicializan las variables de salida con dicho valor.
-Empieza un ciclo while cuya condición es valoresIngresados!=999.
+Empieza un ciclo while cuya condiciÃ³n es valoresIngresados!=999.
 Sabiendo que el valor no es 999, comparamos si es mayor que mayorValor o menor que menorValor.
 Antes de salir del ciclo se lee valoresIngresados.
 Cuando se ingrese 999, el ciclo while finaliza y se imprime el mayor y el menor valor.
  
 QA
-Entrada		Salida		Resultado
-1.1 56 -5 999	56 y -5		56 y -5
--1 -1 0.5 998 999	998 y -1		998 y -1
-0.999 7 1 12 999	12 y 0.999		12 y 0.999
+Entrada			Salida		Resultado
+1.1 56 -5 999		56 y -5		56 y -5
+-1 -1 0.5 998 999	998 y -1	998 y -1
+0.999 7 1 12 999	12 y 0.999	12 y 0.999
 */
 int main(int argc, char *argv[]) {
 	float valoresIngresados, mayorValor, menorValor;
 	printf("Escribir un valor de la secuencia. Ingrese 999 para salir\n");
 	/*Primera lectura*/
 	scanf("%f",&valoresIngresados);
-	/*Inicialización de variables*/
+	/*InicializaciÃ³n de variables*/
 	mayorValor=valoresIngresados;
 	menorValor=valoresIngresados;
-	/*El ciclo se repite hasta cumplir la condición de salida*/
+	/*El ciclo se repite hasta cumplir la condiciÃ³n de salida*/
 	while(valoresIngresados!=999){
 		/*Si el valor ingresado es mayor que mayorValor, el segundo toma el valor del primero*/
 		if(valoresIngresados>mayorValor){
