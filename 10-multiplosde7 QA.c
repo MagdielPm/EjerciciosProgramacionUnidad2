@@ -5,7 +5,7 @@ Salida: multiplicador
 Proceso: calcular los n multiplos de 7
  
 QA
-Entarada  Salida         Resultado
+Entrada  Salida         Resultado
 2         2, 49           7, 49
 0         S/S             S/S
 4         7, 14, 21, 28   7, 14, 21, 28
