@@ -2,14 +2,13 @@
 Autor: Ricardo Serrano
 Entrada: unidadCentena
 Salida: unidadCentena
-Proceso: calcular la centena próxima de un número
+Proceso: calcular la centena prÃ³xima de un nÃºmero
 
 QA
-Entrada	 Salida	y Resultado
-22.5  	  .225   0   0   
-300	   	  3.000 3 300     
--60   	  -0.6   0  0    
-0       	0    0  0     
+Entrada	 Salida	 Resultado
+49	 0	 0
+151	 200	 200
+949	 900	 900
 */
 
 #include <stdio.h>
