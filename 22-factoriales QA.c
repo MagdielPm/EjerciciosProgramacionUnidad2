@@ -1,9 +1,9 @@
 /*
-Autor: Magdiel Pech Menéndez
+Autor: Magdiel Pech MenÃ©ndez
 Entrada: numeroDeElementos
 Salida: sumaDeFactoriales
 Procedimiento general:
-Algoritmo para calcular la suma de números 
+Algoritmo para calcular la suma de nÃºmeros 
 factoriales 1! + 2! + 3!...+ n!
  
 QA
@@ -21,7 +21,7 @@ int main(int argc, char *argv[]) {
 	Variable entera de salida: sumaDeFactoriales
 	Variable entera para iteraciones de ciclo for
 	Variable entera llada "factorial" para realizar 
-	la multiplicación de los valores de n 
+	la multiplicaciÃ³n de los valores de n 
 	*/
 	int i, sumaDeFactoriales = 0 , numeroDeElementos, factorial = 1;
 	/*
